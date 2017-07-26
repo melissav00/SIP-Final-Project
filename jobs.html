@@ -5,7 +5,7 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="pic.css">
 </head>
 <body id="homepage" data-spy-"scroll" data-target=".navbar" data-offset="60">
   <header class="container">
@@ -34,8 +34,20 @@
   <section class="jumbotron">
     <div class="container">
       <div class="row-text-center">
-        <h2>Welcome</h2>
-        <h3>Words....</h3>
+        <h2 id="map">Map of jobs:</h2>
+				<div id="map"></div>
+				<script>
+					function myMap() {
+					var mapOptions = {
+					    center: new google.maps.LatLng(51.5, -0.12),
+					    zoom: 10,
+					    mapTypeId: google.maps.MapTypeId.HYBRID
+					}
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARPdEn6koPc89Y9-L_Id-fjjagFTIozsY&callback=myMap"></script>
+        <div id="map" style="width:400px;height:400px">
       </div>
     </div>
   </section>
@@ -43,22 +55,13 @@
     <div class="row">
       <h1 id="mission">Mission</h1><!--Add something for each page-->
       <figure class="col-sm-5">
-        <p></p>
-        <img src="#" width="400" height="300"/>
-      </figure>
-      <figure class="col-sm-5">
-        <p></p>
-        <img src="#" width="400" height="300"/>
-      </figure>
-    </div>
-    <div class="row">
-      <figure class="col-sm-5">
-        <p></p>
-        <img src="#" width="400" height="300"/>
-      </figure>
-      <figure class="col-sm-5">
-        <p></p>
-        <img src="#" width="400" height="300"/>
+				<h2>Job Listings</h2>
+				<h4>Job listings are everywhere: online, in newspapers, in trade magazines and even on the bulletin board of your local coffee shop. Look at them all! Not only will it give you a good sense of what’s out there, but it will open your eyes to opportunities you might not have considered otherwise.</h4><br>
+	      <p>The Internet may be your greatest resource. hat focus on career planning and job searching. To find them, search for words like “entry-level jobs,” “internships,” “volunteering,” “first job” or a word or phrase (computer science or journalism)  indicating the kind of job for which you are searching.</p>
+				<table>
+					<thead>Here are a few sites for jobs:</thead>
+					<tbody>
+						<th>
       </figure>
     </div>
   </section>
