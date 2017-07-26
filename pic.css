@@ -4,6 +4,25 @@ footer .row {
   align-items: center;
 }
 
+.container{
+  position:relative;
+  /*overflow:hidden;*/
+}
+
+.row{
+  position:relative;
+  float:left;
+  width:75%
+}
+
+.row2{
+  position:relative;
+  width:50%
+  float:left;
+  padding-top: 100px;
+
+}
+
 header h1 {
   font-weight: 700;
   margin: 0;
@@ -48,12 +67,84 @@ header p {
     border-color: transparent;
     color: #fff !important;
 }
-.external {
-    padding-right: 18px;
+/* Footer CSS*/
+nav {
+  position: absolute;
+  font-size: 1.25em;
+  font-weight: bold;
+  background-color: #FFF;
+
 }
 
-a {
-    color: #669900;
-    text-decoration: none;
-    overflow: hidden;
+navbar-nav col-sm-3 a:hover, .navbar-nav col-sm-3.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display:inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+footer {
+	font-size: 12px;
+	padding:20px 0;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+footer .col-sm-7 {
+	display:flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+/*Animation of Navbar */
+.slideanim{visibility:hidden;}
+.slide{
+  animation-name: slide;
+  -webkit-animation-name:slide;
+  animation-duration: 1s;
+  -webkit-animation-duration:1s;
+  visibility:visible;
+}
+
+@keyframes slide {
+  0%{
+    opacity: 0;
+    transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide{
+  0%{
+    opacity: 0;
+    -webkit-transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }

@@ -34,30 +34,28 @@
   <section class="jumbotron">
     <div class="container">
       <div class="row-text-center">
-        <h2 id="map">Map of jobs:</h2>
-				<div id="map"></div>
+				<!-- Add Google Maps -->
+				<div id="googleMap" style="height:400px;width:100%;"></div>
 				<script>
-					function myMap() {
-					var mapOptions = {
-					    center: new google.maps.LatLng(51.5, -0.12),
-					    zoom: 10,
-					    mapTypeId: google.maps.MapTypeId.HYBRID
-					}
-					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-					}
+				function myMap() {
+				var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+				var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+				var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				var marker = new google.maps.Marker({position:myCenter});
+				marker.setMap(map);
+				}
 				</script>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARPdEn6koPc89Y9-L_Id-fjjagFTIozsY&callback=myMap"></script>
-        <div id="map" style="width:400px;height:400px">
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
       </div>
     </div>
   </section>
   <section class="container">
+		<div>
     <div class="row">
-      <h1 id="mission">Mission</h1><!--Add something for each page-->
-      <figure class="col-sm-5">
-				<h2>Job Listings</h2>
+      <figure class="col-sm-8">
+				<h1 id="job">Jobs</h1>
 				<h4>Job listings are everywhere: online, in newspapers, in trade magazines and even on the bulletin board of your local coffee shop. Look at them all! Not only will it give you a good sense of what’s out there, but it will open your eyes to opportunities you might not have considered otherwise.</h4><br>
-	      <p>The Internet may be your greatest resource. hat focus on career planning and job searching. To find them, search for words like “entry-level jobs,” “internships,” “volunteering,” “first job” or a word or phrase (computer science or journalism)  indicating the kind of job for which you are searching.</p>
+	      <h4>The Internet may be your greatest resource. hat focus on career planning and job searching. To find them, search for words like “entry-level jobs,” “internships,” “volunteering,” “first job” or a word or phrase (computer science or journalism)  indicating the kind of job for which you are searching.</h4>
 				<table>
 					<thead>Here are a few sites for jobs:</thead>
 					<tbody>
@@ -75,13 +73,21 @@
 								<li>
 									<a href="https://www.jobankinfo.com">www.jobankinfo.com</a>
 								</li>
-www.godefense.com
-www.aftercollege.com
-
+								<li>
+									<a href="https://www.godefense.com">www.godefense.com</a>
+								</li>
+								<li>
+									<a href="https://www.aftercollege.com">www.aftercollege.com</a>
+								</li>
 				</table>
       </figure>
     </div>
-  </section>
+		<div class="row2">
+			<img src="JobQuote.png" width="225" height="300">
+		</div>
+	</div>
+	</section>
+
 
 <div class="footer-bottom-wraper">
   <a href="#homepage" title="To Top">
