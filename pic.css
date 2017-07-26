@@ -48,6 +48,12 @@ header p {
     border-color: transparent;
     color: #fff !important;
 }
-.jumbotron {
-  
+.external {
+    padding-right: 18px;
+}
+
+a {
+    color: #669900;
+    text-decoration: none;
+    overflow: hidden;
 }
