@@ -39,10 +39,22 @@ table{
   height:20%;
 }
 
+.container-fluid text-center{
+  height:100%;
+}
+
+#jumbotron1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  width:100%;
+}
+
 #mean{
   display: flex;
   align-items: center;
-  background-image: url('job_page/meaningful.jpg');
+  background-image: url('job_page/test.png');
   background-size: cover;
   color: #ffffff;
   height: 375px;
