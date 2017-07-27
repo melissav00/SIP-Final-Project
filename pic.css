@@ -15,21 +15,13 @@ table{
   /*overflow:hidden;*/
 }
 
-/*.row{
+.row{
   position:relative;
   float:left;
   width:75%
-}*/
-
-.logo-small {
-    color: #24AAE2;
-    font-size: 50px;
 }
 
-.logo {
-    color: #24AAE2;
-    font-size: 200px;
-}
+
 
 header h1 {
   font-weight: normal;
