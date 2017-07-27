@@ -15,25 +15,20 @@ table{
   /*overflow:hidden;*/
 }
 
-.row{
+/*.row{
   position:relative;
   float:left;
   width:75%
+}*/
+
+.logo-small {
+    color: #24AAE2;
+    font-size: 50px;
 }
 
-.row2{
-  position:relative;
-  width:50%
-  float:left;
-  padding-top: 100px;
-
-}
-
-.row3{
-  position:relative;
-  float:left;
-  width:50%;
-
+.logo {
+    color: #24AAE2;
+    font-size: 200px;
 }
 
 header h1 {
