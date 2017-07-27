@@ -42,10 +42,10 @@ table{
 #mean{
   display: flex;
   align-items: center;
-  background-image: (job_page/meaningful.jpg);
+  background-image: url('job_page/meaningful.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 375px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 header h1 {
