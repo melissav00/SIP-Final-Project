@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="pic.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	
 </head>
 <body id="homepage" data-spy-"scroll" data-target=".navbar" data-offset="60">
   <header class="container">
@@ -54,7 +54,7 @@
   <h2>Job Listings</h2>
   <h4>Effective sources for job hunting.</h4>
   <br>
-  <div class="row2">
+  <div class="row2" class="hideme">
     <div class="col-sm-4">
       <span><img src="job_page/indeed.png" class="glyphicon"/></span>
 			<h4><a href="https://indeed.com">Indeed</a></h4>
@@ -75,7 +75,7 @@
 	</div>
 </div>
 <div class="container-fluid text-center">
-	<div class="row2" id="sep">
+	<div class="row2" id="sep"class="hideme">
 		<div class="col-sm-4">
 			<span><img src="job_page/levo.jpg" class="glyphicon"/></span>
 			<h4><a href="https://www.levo.com">Levo</a>
@@ -86,7 +86,7 @@
 			<span><img src="job_page/linkedin.png" class="glyphicon"/></span>
 			<h4><a href="https://www.linkedin.com">LinkedIn</a>
 			</h4>
-			<p>LinkedIn is the world’s most popular social network for professionals. It is fast becoming a place to post jobs and handle talent management due to its enormous reach and growth in active users. LinkedIn is mostly suited to white collar jobs as its growth has predominantly been professionals positions with desk jobs. With the rise of social recruiting, LinkedIn is a must. It's like a giant social resume database.</p>
+			<p class="hideme">LinkedIn is the world’s most popular social network for professionals. It is fast becoming a place to post jobs and handle talent management due to its enormous reach and growth in active users. LinkedIn is mostly suited to white collar jobs as its growth has predominantly been professionals positions with desk jobs. With the rise of social recruiting, LinkedIn is a must. It's like a giant social resume database.</p>
 		</div>
 		<div class="col-sm-4">
 			<span><img src="job_page/florida.png" class="glyphicon" id="image"/></span>
@@ -114,7 +114,7 @@
 	</section>
 	<br><br>
 <section class="container">
-	<div class="jumbotron" id="mean" tabindex=44>
+	<div class="jumbotron" id="mean" tabindex=44 >
 	</div>
 </section>
 
@@ -168,5 +168,6 @@
           </a>
         </li>-->
       </ul>
-
+<script>$(window).fadeThis();</script>
+</body>
 </html>

@@ -8,6 +8,7 @@ footer .row {
   align-items: center;
 }
 
+
 table{
   font-family:sans-serif;
   border-color: #24AAE2;
@@ -27,7 +28,6 @@ table{
 
 .row2{
   opacity: 1;
-  background-color: lightgreen;
 }
 
 #row2{
@@ -59,6 +59,8 @@ table{
   height:100%;
   width:100%;
 }
+
+
 
 #mean{
   display: flex;

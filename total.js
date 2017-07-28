@@ -33,22 +33,3 @@ $(window).scrolldown(function() {
 		}
 	});
 });
-
-//Text appears on scroll function
-
-$(window).on("load",function(){
-	$(window).scroll(function(){
-		var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-		$(".row2").each(function(){
-			//Check loaction of each element
-			var objectBottom = $(this).offset().top + $(this).outerHeight();
-
-			//If element is within bounds of the window, fate it in
-			if (objectBottom < windowBottom){
-				if ($(this).css("opacity")==0) {$(this).fadeto(500,1);}
-			} else{
-				if ($(this).css("opacity")==1){$(this).fadeto(500,0);}
-			}
-		});
- }).scroll(); //invoke scroll-handler on page-load
-});
