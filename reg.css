@@ -11,6 +11,7 @@ p,li{
 }
 
 .some{
+  padding-left: 30px;
   height:375px;
   background-color:#192231;
 }
