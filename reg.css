@@ -2,6 +2,23 @@
   font-family: 'Roboto',sans-serif;
 }
 
+h1,h2,h3,h4,h5{
+  font-family:'Roboto Slab';
+}
+
+p,li{
+  font-family:'Roboto Condensed';
+}
+
+.some{
+  height:375px;
+  background-color:#192231;
+}
+
+.color,.pull-left,.text{
+  color:white;
+}
+
 input[type=text],select,textarea{
 	width:100%;
 	padding:12px;
