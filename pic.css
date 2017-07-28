@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
 header .row,
 footer .row {
   display: flex;
@@ -19,6 +23,11 @@ table{
   position:relative;
   float:left;
   width:75%
+}
+
+.row2{
+  opacity: 1;
+  background-color: lightgreen;
 }
 
 #row2{
@@ -59,6 +68,7 @@ table{
   color: #ffffff;
   height: 375px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+
 }
 header h1 {
   font-weight: normal;
