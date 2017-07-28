@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
 input[type=text],select,textarea{
 	width:100%;
 	padding:12px;
@@ -26,4 +30,134 @@ input[type=submit]:hover{
 	border-radius:5px;
 	background-color:#f2f2f2;
 	padding:20px;
+}
+
+header h1 {
+  font-weight: normal;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.navbar {
+	display:inline-block;
+	float:none;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    text-align:center
+}
+
+.nav navbar-nav navbar-right{
+	text-align:center
+}
+
+.navbar li a, .navbar .navbar-brand {
+	display: flex;
+  	align-items: center
+	}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+/* Footer CSS*/
+nav {
+  position: absolute;
+  font-size: 1.25em;
+  font-weight: normal;
+  background-color: #FFF;
+
+}
+
+navbar-nav col-sm-3 a:hover, .navbar-nav col-sm-3.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display:inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+footer {
+	font-size: 12px;
+	padding:20px 0;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+footer .col-sm-7 {
+	display:flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+.footer-social-icons{
+  padding-right:20%;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+/*Animation of Navbar */
+.slideanim{visibility:hidden;}
+.slide{
+  animation-name: slide;
+  -webkit-animation-name:slide;
+  animation-duration: 1s;
+  -webkit-animation-duration:1s;
+  visibility:visible;
+}
+
+@keyframes slide {
+  0%{
+    opacity: 0;
+    transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide{
+  0%{
+    opacity: 0;
+    -webkit-transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
