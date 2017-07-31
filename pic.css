@@ -2,6 +2,10 @@
   font-family: 'Roboto',sans-serif;
 }
 
+.type{
+  position: relative;
+}
+
 header .row,
 footer .row {
   display: flex;
