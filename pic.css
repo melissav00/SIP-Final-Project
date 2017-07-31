@@ -8,6 +8,25 @@ footer .row {
   align-items: center;
 }
 
+h1,h2,h3,h4,h5{
+  font-family:'Roboto Slab';
+}
+
+p,li{
+  font-family:'Roboto Condensed';
+}
+/*Footer Start*/
+.some{
+  padding-left: 150px;
+  height:375px;
+  background-color:#192231;
+}
+
+.color,.pull-left,.text{
+  color:white;
+}
+/*Above is the end of footer*/
+
 
 table{
   font-family:sans-serif;
@@ -171,9 +190,6 @@ footer li img {
   height: 32px;
 }
 
-h1,h2,h3,h4,h5,h6,h7,h8{
-  color:#000080;
-}
 
 /*Animation of Navbar */
 .slideanim{visibility:hidden;}
