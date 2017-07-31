@@ -6,31 +6,112 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="same.css">
-</head>
-<body id="homepage" data-spy-"scroll" data-target=".navbar" data-offset="60">
-  <header class="container">
-    <nav class="navbar-default navbar-fixed-top">
-      <div class="row">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="#">Something</a>
-      </div>
-      <div class="navbar-collapse" id="myNavbar">
-        <ul class="navbar-nav navbar-right">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#jobs">Jobs</a></li>
-          <li><a href="#resource">Resource</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      </div>
-    </nav>
-  </header>
+
+	<style>
+	ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #192231;
+		position: fixed;
+			top: 0;
+			width: 100%;
+		transition: top 0.2s ease-in-out;
+	}
+
+	li {
+			float: left;
+	}
+
+	li a, .dropbtn {
+		display: none;
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+	}
+
+
+	li.dropdown {
+			display: inline-block;
+	}
+
+	.dropdown-content {
+			display: none;
+			background-color: #FFFFFF;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px #98878F;
+			z-index: 1;
+	}
+
+	.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+	}
+
+	li a:hover {
+	margin-top:-2px;
+	padding-bottom:4px;
+	}
+
+	a:hover {text-decoration: none; color: #bd96e0;}
+
+
+	.dropdown-content a:hover {background-color: #f1f1f1;}
+
+	.dropdown:hover .dropdown-content {display: block;}
+
+
+	.test:hover {opacity: 0.7;}
+	.right{float:right;}
+	.left{float:left;}
+	.homepic{padding: 990px;}
+
+	tr {padding: 20px;}
+	td {padding: 20px;}
+	</style>
+
+	</head>
+	<nav class="navbar navbar-inverse navbar-static-top">
+
+			 <div class="navbar-header">
+			 </div>
+			 <div id="navbar3" class="navbar-collapse collapse">
+			 <ul id="menu-ultility-menu" class="menu">
+			 <a href="skeleton.html"/>
+			 <img style= "padding-left: 2cm;" src="tbp2.png" width="270" height="100"></a>
+		 <li><a href="about.html">About Us</a></li>
+				 <li><a href="jobs.html">Jobs</a></li>
+				 <li><a href="contact.html">Contact</a></li>
+			 <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Resources</a>
+		 <div class="dropdown-content">
+			 <a href="resource.html">Personal Appearance</a>
+			 <a href="Qualities.html">Personal Qualities</a>
+			 <a href="Resume.html">Resume Help</a>
+		 </div></li>
+
+	<div class="right">
+	 <tr>
+	 <td align="right" align="top">
+		 <a href="https://www.instagram.com/the_blank_project"/>
+		 <li><img src="insta2.png" width="32" height="32"></a></li>
+	 <a href="https://www.youtube.com/channel/UCgWGbD4iAEwC00wlHhyOYHA"/>
+	 <li><img src="youtube2.png" width="32" height="32"></a></li>
+	 <a href="https://www.facebook.com/"/>
+	 <li><img src="github.png" width="32" height="32"></a></li>
+	 <a href="https://www.facebook.com/"/>
+	 <li><img src="fbk2.png" width="34" height="34"></a></li>
+	 </td>
+	 </tr>
+	</div>
+	</div>
+	</nav>
+  <!--End of naav bar-->
   <section class="jumbotron">
     <div class="container">
       <div class="row-text-center">

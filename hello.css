@@ -1,0 +1,43 @@
+
+h1 {color:#56B1C9;font-family:'Roboto Slab', serif; font-Size:30px;}
+h2 {color:#5BBA7E;font-family:'Roboto Slab', serif; font-size:20px;}
+h3{color:#BA5B90;font-family:'Roboto Slab', serif; font-Size:15px;}
+h4{color:#FF7256;font-family:'Roboto Condensed', sans-serif; font-Size:20px;}
+h5{color:#FF7256;font-family:'Roboto Condensed', sans-serif; font-Size:15px;}
+
+
+p {font-family: 'Roboto Condensed', sans-serif;}
+
+li {word wrap:break-word;font-family: 'Roboto Condensed', sans-serif; font-Size:22px; padding: 20px;}
+
+ul{list-style-type: square;}
+
+.p1 {color:#6666ff;font-family: 'Roboto Condensed', sans-serif;}
+
+.image {position: relative;width: 100%; /* for IE 6 */}
+
+.pic1{margin-top: 2px;background-image: url("logo.PNG");}
+
+
+.spic1{color:#006400;
+		padding-right: 100px;
+		padding-top: 55px;
+		font-family:'Roboto Slab', serif; 
+		font-Size:70px;}
+
+
+.shark{	background-image:url("sharks.png");
+		width:258px;
+height:358px;}
+
+.right{float:right;}
+
+#socil li {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	 padding: 5px;
+}

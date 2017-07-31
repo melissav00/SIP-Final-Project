@@ -79,18 +79,12 @@ table{
   width:100%;
 }
 
-
-
-#mean{
-  display: flex;
-  align-items: center;
-  background-image: url('job_page/test.png');
-  background-size: cover;
-  color: #ffffff;
-  height: 375px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-
+.container{
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
 }
+
 header h1 {
   font-weight: normal;
   margin: 0;
@@ -123,30 +117,31 @@ header p {
 
 .navbar li a, .navbar .navbar-brand {
 	display: flex;
-  	align-items: center
+  align-items: center
 	}
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #000000 !important;
-    background-color: #fff !important;
+    color: black !important;
+    background-color: #192231 !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
+    color: #192231 !important;
 }
+
 /* Footer CSS*/
 nav {
   position: absolute;
   font-size: 1.25em;
   font-weight: normal;
-  background-color: #FFF;
+  background-color: #192231;
 
 }
 
 navbar-nav col-sm-3 a:hover, .navbar-nav col-sm-3.active a {
     color: #f4511e !important;
-    background-color: #fff !important;
+    background-color: #192231 !important;
 }
 
 
@@ -189,8 +184,6 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
-
 /*Animation of Navbar */
 .slideanim{visibility:hidden;}
 .slide{
