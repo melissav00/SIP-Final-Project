@@ -1,7 +1,7 @@
 jumbotron{
 display: flex;
 align-items: center;
-background-image: url('about_pic/woman1.jpg');
+background-image: url("about_pic/woman1.jpg");
 background-size: cover;
 color: #ffffff;
 height: 500px;
@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5{
 
 p,li{
   font-family:'Roboto Condensed';
+  font-size: 1.75rem;
 }
 /*Footer Start*/
 .some{
