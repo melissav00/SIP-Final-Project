@@ -215,6 +215,8 @@ li a, .dropbtn {
 		text-decoration: none;
 }
 
+tr {padding: 20px;}
+td {padding: 20px;}
 
 li.dropdown {
 		display: inline-block;
