@@ -12,6 +12,10 @@ footer .row {
   align-items: center;
 }
 
+.work,.dropdown{
+  font-size: 20px;
+}
+
 h1,h2,h3,h4,h5{
   font-family:'Roboto Slab';
 }
@@ -22,7 +26,7 @@ p,li{
 /*Footer Start*/
 .some{
   padding-left: 150px;
-  height:200px;
+  height:215px;
   background-color:#192231;
 }
 
