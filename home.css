@@ -1,0 +1,15 @@
+mark {background-color: #ffffff;}
+
+#checkoutbutton {
+  width: 200px;
+  height: 40px;
+  background-color: #192231;
+  -webkit-border-radius: 15px;
+
+}
+#checkoutbutton:hover {opacity: 0.6; }
+
+
+A:link {color: #ffffff; text-decoration:none}
+A:visited {color: #ffffff; text-decoration:none}
+A:hover {text-decoration:underline; opacity: 0.6; }
