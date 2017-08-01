@@ -6,10 +6,10 @@
   position: relative;
 }
 
-jumbotron{
+.jumbotron{
 display: flex;
 align-items: center;
-background-image: url("about_pic/woman1.jpg");
+background-image: url('about.jpg');
 background-size: cover;
 color: #ffffff;
 height: 500px;
@@ -36,7 +36,7 @@ p,li{
 /*Footer Start*/
 .some{
   padding-left: 150px;
-  height:375px;
+  height:200px;
   background-color:#192231;
 }
 
@@ -45,7 +45,7 @@ p,li{
 }
 
 .navbar {
-	display:inline-block;
+	display:inline-grid;
 	float:none;
     margin-bottom: 0;
     background-color: #ffffff;
@@ -87,6 +87,45 @@ navbar-nav col-sm-3 a:hover, .navbar-nav col-sm-3.active a {
     background-color: #fff !important;
 }
 
+.myImage{
+  float: right;
+  height: 75px;
+  width: 235px;
+}
+
+#begin {
+  text-align: center;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+#start {
+  padding-left: -50px;
+}
+
+.Sam{
+  float: right;
+  height: 75px;
+  width: 240px;
+
+}
+
+
+.Meli{
+  float: right;
+  height: 75px;
+  width: 235px;
+
+}
+
+p{
+  font-family: 'Roboto Condensed', sans-serif; color: #000000;
+}
+
+#dent {
+  margin-left: 10px;
+}
+
 
 nav li {
   margin: 0;
@@ -95,7 +134,7 @@ nav li {
 }
 
 nav ul {
-  display: inline;
+  display: inline-block;
 }
 
 
