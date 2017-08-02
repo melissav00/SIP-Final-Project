@@ -203,8 +203,8 @@ footer li img {
   font-family:'Robato',sans-serif;
 }
 
-ul li{
-
+.fix, ol{
+  list-style-type:none;
   display: inline-block;
 }
 
