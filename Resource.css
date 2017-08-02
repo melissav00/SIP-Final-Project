@@ -7,13 +7,21 @@
 .price{
   opacity: 1;
 }
+
+.oc{
+  opacity:2;
+}
+.oc:hover{
+  opacity: inherit;
+}
 *{
   font-family: 'Roboto',sans-serif;
 }
 h1,th{
   font-family: 'Roboto Slab';
-
 }
+
+
 img{
   opacity: .5;
 }
